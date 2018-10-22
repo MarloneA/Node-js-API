@@ -1,0 +1,25 @@
+{
+  "name": "node-js-api",
+  "version": "1.0.0",
+  "description": "A simple CRUD API built on Node Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarloneA/Node-js-API.git"
+  },
+  "author": "Marlone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarloneA/Node-js-API/issues"
+  },
+  "homepage": "https://github.com/MarloneA/Node-js-API#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.5"
+  }
+}
